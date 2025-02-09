@@ -124,4 +124,30 @@ It’s like adding invisible instructions to plain text to make it look nicer or
   - If not, the browser does not support the element.
 - **Fallback Behavior**:
   - Unsupported elements revert to default behavior (e.g., displaying as a text field).
-    
+    ```markdown
+# HTML Elements and Examples
+
+| **Element**          | **Description**                                                                 | **Example**                                                                 |
+|----------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| `<!--  -->`          | Denotes a comment in HTML, not displayed by the browser.                        | `<!-- This is a comment -->`                                                |
+| `<!DOCTYPE html>`    | Declares the document type. Must be the first line in an HTML document.         | ```html <!DOCTYPE html> <html> <head>...</head> <body>...</body> </html> ```|
+| `<a href="path">`    | Creates a hyperlink using the `href` attribute.                                 | `<a href="https://www.ibm.com">IBM</a>`                                     |
+| `<body>`             | Contains the content of the HTML document.                                      | ```html <body> <!-- Document Body Here --> </body> ```                      |
+| `<div>`              | Used to separate sections for styling with CSS.                                 | ```html <div> This element is used for styling purposes. </div> ```         |
+| `<h1>`               | Adds a level 1 heading.                                                         | `<h1>Thomas J. Watson</h1>`                                                 |
+| `<head>`             | Contains metadata and is placed after `<html>` and before `<body>`.             | ```html <head> <!-- Metadata Here --> </head> ```                           |
+| `<html>`             | The root element of an HTML document.                                           | ```html <html> <head>...</head> <body>...</body> </html> ```                |
+| `<img src="path">`   | Inserts an image. `src` specifies the image path. Optional: `width`, `height`.  | `<img src="image.jpg" width="300" height="300"/>`                           |
+| `<li>`               | Creates bulleted or numbered list items. Used with `<ul>` or `<ol>`.            | ```html <ul> <li>Bullet point 1</li> <li>Bullet point 2</li> </ul> ```      |
+| `<link>`             | Links external documents like CSS files.                                        | ```html <head> <link rel="stylesheet" href="styles.css"> </head> ```        |
+| `<meta>`             | Provides metadata about the HTML document.                                      | ```html <head> <meta name="author" content="Christopher Moore"> </head> ``` |
+| `<ol>`               | Creates an ordered (numbered) list. Used with `<li>`.                           | ```html <ol> <li>Numbered bullet point 1</li> <li>Numbered bullet point 2</li> </ol> ``` 
+| `<p>`                | Defines a paragraph. Adds a line break after the text.                          | `<p>This is a paragraph of text.</p>`                                       |
+| `<script>`           | Embeds JavaScript in an HTML document.                                          | ```html <script> alert("Hello World"); </script> ```                        |
+| `<table>`            | Defines a table. Used with `<tr>`, `<td>`, and `<th>`.                          | ```html <table> <tr> <th>Header cell 1</th> <th>Header cell 2</th> </tr> <tr> <td>First row first cell</td> <td>First row second cell</td> </tr> </table> ``` |
+| `<td>`               | Defines a cell within a table row.                                              | `<td>Cell Content</td>`                                                     |
+| `<th>`               | Defines a header cell within a table row.                                       | `<th>Header cell 1</th>`                                                    |
+| `<title>`            | Defines the title of the HTML document (displayed in the browser tab).          | ```html <head> <title>Document Title</title> </head> ```                    |
+| `<tr>`               | Defines a row within a table.                                                   | ```html <tr> <td>First row first cell</td> <td>First row second cell</td> </tr> ``` 
+| `<ul>`               | Creates an unordered (bulleted) list. Used with `<li>`.                         | ```html <ul> <li>Bullet point 1</li> <li>Bullet point 2</li> </ul> ```      |
+```
