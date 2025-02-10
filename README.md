@@ -151,3 +151,4 @@ It’s like adding invisible instructions to plain text to make it look nicer or
 | `<tr>`               | Defines a row within a table.                                                   | ```html <tr> <td>First row first cell</td> <td>First row second cell</td> </tr> ``` 
 | `<ul>`               | Creates an unordered (bulleted) list. Used with `<li>`.                         | ```html <ul> <li>Bullet point 1</li> <li>Bullet point 2</li> </ul> ```      |
 ```
+semantics
