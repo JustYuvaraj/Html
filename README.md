@@ -1,14 +1,14 @@
 # 📘NOT JUST HTML
 
 ### ✅ Getting Started with HTML
-- [ ] Introduction to HTML  
-- [ ] The Birth, Evolution, and Future of HTML  
-- [ ] HTML Development Environment  
-- [ ] Character Encoding  
-- [ ] HTML Syntax: Elements, Tags, and Comments  
-- [ ] HTML Syntax: Attributes and Values  
-- [ ] HTML Syntax: HTML, Head, and Body Tags  
-- [ ] The Relationship Between HTML, CSS, and JS  
+- [x ] Introduction to HTML  
+- [x ] The Birth, Evolution, and Future of HTML  
+- [x ] HTML Development Environment  
+- [ x] Character Encoding  
+- [x ] HTML Syntax: Elements, Tags, and Comments  
+- [x ] HTML Syntax: Attributes and Values  
+- [x ] HTML Syntax: HTML, Head, and Body Tags  
+- [x ] The Relationship Between HTML, CSS, and JS  
 
 ### ✅ Formatting Text and Organizing Data
 - [ ] Headings  
